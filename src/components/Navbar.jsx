@@ -28,7 +28,7 @@ const Navbar = () => {
   
   return (
     <nav>
-      <div className="h-10vh flex justify-between z-50 text-indigo-900 lg:py-5 px-4 md:px-20 py-4 shadow-md">
+      <div className="fixed w-full h-10vh flex justify-between z-50 text-indigo-900 lg:py-5 px-4 md:px-20 py-4 shadow-md">
         <div className="flex items-center flex-1">
           <span className="text-3xl font-bold">Logo</span>
         </div>
