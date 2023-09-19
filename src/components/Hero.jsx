@@ -1,6 +1,4 @@
 import React from "react";
-import Typed from "react-typed";
-import { Link } from "react-router-dom";
 
 import house from "../assets/house.jpg"
 
