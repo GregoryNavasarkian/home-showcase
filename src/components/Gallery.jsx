@@ -25,10 +25,10 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div className='pt-10 items-center justify-center bg-indigo-950'>
+    <div id="gallery" className='min-h-screen pt-10 items-center justify-center bg-indigo-950'>
       <h2 className='text-center md:text-6xl text-4xl font-bold text-indigo-100 drop-shadow-lg'>Gallery</h2>
       <div className='flex items-center justify-center md:px-20 bg-indigo-950'>
-        <span className='content-center mb-14 m-8 md:min-w-[77%] min-w-[85%]'><ImageGallery items={images} /></span>
+        <span className='content-center mb-20 m-8 md:min-w-[77%] min-w-[85%]'><ImageGallery items={images} /></span>
       </div>
     </div>
   )
