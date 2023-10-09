@@ -11,16 +11,16 @@ const Navbar = () => {
     <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-indigo-100 transition">
       <ul className="text-center text-xl p-20">
         <Link spy={true} smooth={true} to="Home">
-          <li className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-800 hover:rounded">Home</li>
+          <li className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-200 hover:rounded">Home</li>
         </Link >
         <Link spy={true} smooth={true} to="Gallery">
-          <li className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-800 hover:rounded">Gallery</li>
+          <li className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-200 hover:rounded">Gallery</li>
         </Link>
         <Link spy={true} smooth={true} to="About">
-          <li className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-800 hover:rounded">About</li>
+          <li className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-200 hover:rounded">About</li>
         </Link>
         <Link spy={true} smooth={true} to="Contact">
-          <li className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-800 hover:rounded">Contact</li>
+          <li className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-200 hover:rounded">Contact</li>
         </Link>
       </ul>
     </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
   
   return (
     <nav>
-      <div className="fixed w-full h-10vh flex justify-between z-50 text-indigo-900 lg:py-5 px-4 md:px-20 py-4 shadow-md">
+      <div className="fixed bg-indigo-100 w-full h-10vh flex justify-between z-50 text-indigo-900 lg:py-5 px-4 md:px-20 py-4 shadow-md">
         <div className="flex items-center flex-1">
           <span className="text-3xl font-bold">Logo</span>
         </div>

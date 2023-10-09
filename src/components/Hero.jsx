@@ -4,10 +4,10 @@ import house from "../assets/house.jpg"
 
 const Hero = () => {
   return (
-    <div class="min-h-screen bg-indigo-100 items-center">
+    <div class="min-h-[1000px] bg-indigo-100 items-center">
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto mt-28 md:mt-64 place-self-center lg:col-span-7 ml-1">
-          <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">481 Starlight Crest Dr</h1>
+          <h1 class="max-w-2xl mb-4 text-4xl text-indigo-950 font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">481 Starlight Crest Dr</h1>
           <p class="max-w-2xl mb-6 font-light text-indigo-800 lg:mb-8 md:text-lg lg:text-xl md:text-left">Modern home with state of the art appliances and exquisite attention to detail.</p>
           <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-indigo-200 border hover:border-grey-800 transition-all ease-in-out hover:shadow-sm">
             View Gallery
