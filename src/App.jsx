@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Gallery from './components/Gallery';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Hero />
+        <Gallery />
       </Router>
     </div>
   )

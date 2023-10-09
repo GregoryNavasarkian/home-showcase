@@ -22,6 +22,7 @@ const Hero = () => {
           <img className="p-2 rounded-md shadow-md" src={house} alt="house" />
         </div>
       </div>
+      
     </div>
   );
 }
