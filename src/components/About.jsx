@@ -36,8 +36,8 @@ const actions = [
     title: 'Landscaping',
     href: '#',
     icon: BuildingStorefrontIcon,
-    iconForeground: 'text-yellow-700',
-    iconBackground: 'bg-yellow-50',
+    iconForeground: 'text-green-700',
+    iconBackground: 'bg-green-50',
   },
   {
     title: 'Submit an expense',
