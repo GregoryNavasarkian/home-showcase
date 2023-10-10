@@ -18,7 +18,7 @@ const Navbar = () => {
               Home
             </li>
           </Link>
-          <Link to="gallery" spy={true} offset={-60} duration={200}>
+          <Link to="gallery" spy={true} offset={-70} duration={200}>
             <li
               onClick={handleClick}
               className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-200 hover:rounded"
@@ -26,7 +26,7 @@ const Navbar = () => {
               Gallery
             </li>
           </Link>
-          <Link spy={true} offset={-60} duration={200} to="about">
+          <Link spy={true} offset={-90} duration={200} to="about">
             <li
               onClick={handleClick}
               className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-200 hover:rounded"
@@ -34,7 +34,7 @@ const Navbar = () => {
               Details
             </li>
           </Link>
-          <Link spy={true} offset={-60} duration={200} to="contact">
+          <Link spy={true} offset={-90} duration={200} to="contact">
             <li
               onClick={handleClick}
               className="my-4 py-4 border-b border-indigo-800 hover:bg-indigo-200 hover:rounded"
@@ -65,17 +65,17 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link to="gallery" spy={true} offset={-60} duration={200}>
+              <Link to="gallery" spy={true} offset={-80} duration={200}>
                 <li className="hover:text-indigo-600 transition border-b-2 border-slate-900 hover:border-indigo-600 cursor-pointer">
                   Gallery
                 </li>
               </Link>
-              <Link spy={true} offset={-60} duration={200} to="about">
+              <Link spy={true} offset={-110} duration={200} to="about">
                 <li className="hover:text-indigo-600 transition border-b-2 border-slate-900 hover:border-indigo-600 cursor-pointer">
                   Details
                 </li>
               </Link>
-              <Link spy={true} offset={-60} duration={200} to="contact">
+              <Link spy={true} offset={-90} duration={200} to="contact">
                 <li className="hover:text-indigo-600 transition border-b-2 border-slate-900 hover:border-indigo-600 cursor-pointer">
                   Contact
                 </li>

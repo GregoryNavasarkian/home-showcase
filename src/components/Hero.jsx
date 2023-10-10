@@ -26,7 +26,7 @@ const Hero = () => {
             <Link
               to="gallery"
               spy={true}
-              offset={-60}
+              offset={-80}
               duration={200}
               className="inline-flex items-center justify-center px-3 py-3 mr-3 text-indigo-100 font-medium text-center rounded-lg hover:bg-indigo-900 border border-indigo-300 hover:border-grey-800 transition-all ease-in-out hover:shadow-sm cursor-pointer"
             >
@@ -47,7 +47,7 @@ const Hero = () => {
             <Link
               to="contact"
               spy={true}
-              offset={-60}
+              offset={-90}
               duration={200}
               className="inline-flex items-center justify-center px-3 py-3 text-base font-medium text-center text-indigo-100 border border-indigo-300 rounded-lg hover:bg-indigo-900 focus:ring-4 focus:ring-gray-100 transition-all ease-in-out shadow-sm cursor-pointer"
             >
