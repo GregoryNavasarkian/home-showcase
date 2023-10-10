@@ -14,7 +14,7 @@ const Hero = () => {
               481 Starlight Crest Dr
             </h1>
             <h2 className="text-center items-center justify-center mx-auto max-w-4xl mb-4 text-2xl text-indigo-100 font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl">
-              La Canada, CA 91011
+              La Cañada, CA 91011
             </h2>
             <p className="text-center items-center justify-center mx-auto max-w-2xl mb-6 font-light text-indigo-200 lg:mb-8 md:text-2xl">
               Modern home with state of the art appliances and exquisite
