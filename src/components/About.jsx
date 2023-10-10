@@ -13,28 +13,28 @@ import {
 const actions = [
   {
     title: 'Security',
-    href: '#',
+    href: '/security',
     icon: BellAlertIcon,
     iconForeground: 'text-teal-700',
     iconBackground: 'bg-teal-50',
   },
   {
     title: 'Automation',
-    href: '#',
+    href: '/automation',
     icon: AdjustmentsHorizontalIcon,
     iconForeground: 'text-purple-700',
     iconBackground: 'bg-purple-50',
   },
   {
     title: 'Appliances',
-    href: '#',
+    href: '/appliances',
     icon: UsersIcon,
     iconForeground: 'text-sky-700',
     iconBackground: 'bg-sky-50',
   },
   {
     title: 'Landscaping',
-    href: '#',
+    href: '/landscaping',
     icon: BuildingStorefrontIcon,
     iconForeground: 'text-green-700',
     iconBackground: 'bg-green-50',
