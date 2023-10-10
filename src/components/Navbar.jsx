@@ -25,18 +25,18 @@ const Navbar = () => {
       </ul>
     </div>
   </>
-
+  
   return (
     <nav>
       <div className="fixed bg-indigo-100 w-full h-10vh flex justify-between z-50 text-indigo-900 lg:py-5 px-4 md:px-20 py-4 shadow-md">
-        <div className="flex items-center flex-1">
+        <div className="flex items-center">
           <Link to="hero" spy={true} offset={0} duration={200}>
-            <span className="text-3xl font-bold cursor-pointer">Logo</span>
+            <span className="text-3xl font-bold cursor-pointer">481 Starlight</span>
           </Link>
         </div>
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
           <div className="flex-10">
-            <ul className="flex gap-8 mr-16 text-[18px]">
+            <ul className="flex gap-8 mr-16 text-[20px]">
               <Link to="hero" spy={true} offset={0} duration={200}>
                 <li className="hover:text-indigo-600 transition border-b-2 border-slate-900 hover:border-indigo-600 cursor-pointer">Home</li>
               </Link>
