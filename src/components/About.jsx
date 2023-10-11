@@ -24,20 +24,7 @@ const actions = [
     iconForeground: "text-purple-700",
     iconBackground: "bg-purple-50",
   },
-  {
-    title: "Appliances and Fixtures",
-    href: "/appliances",
-    icon: UsersIcon,
-    iconForeground: "text-sky-700",
-    iconBackground: "bg-sky-50",
-  },
-  {
-    title: "Landscaping",
-    href: "/landscaping",
-    icon: BuildingStorefrontIcon,
-    iconForeground: "text-green-700",
-    iconBackground: "bg-green-50",
-  },
+
   {
     title: "Lighting",
     href: "/lighting",
@@ -51,6 +38,20 @@ const actions = [
     icon: FunnelIcon,
     iconForeground: "text-indigo-700",
     iconBackground: "bg-indigo-50",
+  },
+  {
+    title: "Appliances and Fixtures",
+    href: "/appliances",
+    icon: UsersIcon,
+    iconForeground: "text-sky-700",
+    iconBackground: "bg-sky-50",
+  },
+  {
+    title: "Landscaping",
+    href: "/landscaping",
+    icon: BuildingStorefrontIcon,
+    iconForeground: "text-green-700",
+    iconBackground: "bg-green-50",
   },
 ];
 

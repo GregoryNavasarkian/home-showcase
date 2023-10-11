@@ -9,6 +9,7 @@ import Automation from "./pages/Automation";
 import Appliances from "./pages/Appliances";
 import Landscaping from "./pages/Landscaping";
 import Lighting from "./pages/Lighting";
+import Climate from "./pages/Climate";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/appliances" element={<Appliances />} />
           <Route path="/landscaping" element={<Landscaping />} />
           <Route path="/lighting" element={<Lighting />} />
+          <Route path="/climate" element={<Climate />} />
         </Routes>
         <Footer />
       </Router>
