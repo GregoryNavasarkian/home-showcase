@@ -7,56 +7,55 @@ import {
   BuildingStorefrontIcon,
   UsersIcon,
   SunIcon,
-} from '@heroicons/react/24/outline'
-
+} from "@heroicons/react/24/outline";
 
 const actions = [
   {
-    title: 'Safety and Security',
-    href: '/security',
+    title: "Safety and Security",
+    href: "/security",
     icon: ShieldCheckIcon,
-    iconForeground: 'text-teal-700',
-    iconBackground: 'bg-teal-50',
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
   },
   {
-    title: 'Automation',
-    href: '/automation',
+    title: "Automation",
+    href: "/automation",
     icon: AdjustmentsHorizontalIcon,
-    iconForeground: 'text-purple-700',
-    iconBackground: 'bg-purple-50',
+    iconForeground: "text-purple-700",
+    iconBackground: "bg-purple-50",
   },
   {
-    title: 'Appliances and Fixtures',
-    href: '/appliances',
+    title: "Appliances and Fixtures",
+    href: "/appliances",
     icon: UsersIcon,
-    iconForeground: 'text-sky-700',
-    iconBackground: 'bg-sky-50',
+    iconForeground: "text-sky-700",
+    iconBackground: "bg-sky-50",
   },
   {
-    title: 'Landscaping',
-    href: '/landscaping',
+    title: "Landscaping",
+    href: "/landscaping",
     icon: BuildingStorefrontIcon,
-    iconForeground: 'text-green-700',
-    iconBackground: 'bg-green-50',
+    iconForeground: "text-green-700",
+    iconBackground: "bg-green-50",
   },
   {
-    title: 'Lighting',
-    href: '/lighting',
+    title: "Lighting",
+    href: "/lighting",
     icon: SunIcon,
-    iconForeground: 'text-rose-700',
-    iconBackground: 'bg-rose-50',
+    iconForeground: "text-rose-700",
+    iconBackground: "bg-rose-50",
   },
   {
-    title: 'Climate',
-    href: '/climate',
+    title: "Climate",
+    href: "/climate",
     icon: FunnelIcon,
-    iconForeground: 'text-indigo-700',
-    iconBackground: 'bg-indigo-50',
+    iconForeground: "text-indigo-700",
+    iconBackground: "bg-indigo-50",
   },
-]
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 const About = () => {
@@ -70,11 +69,15 @@ const About = () => {
           <div
             key={action.title}
             className={classNames(
-              actionIdx === 0 ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none' : '',
-              actionIdx === 1 ? 'sm:rounded-tr-lg' : '',
-              actionIdx === actions.length - 2 ? 'sm:rounded-bl-lg' : '',
-              actionIdx === actions.length - 1 ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none' : '',
-              'group relative bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500'
+              actionIdx === 0
+                ? "rounded-tl-lg rounded-tr-lg sm:rounded-tr-none"
+                : "",
+              actionIdx === 1 ? "sm:rounded-tr-lg" : "",
+              actionIdx === actions.length - 2 ? "sm:rounded-bl-lg" : "",
+              actionIdx === actions.length - 1
+                ? "rounded-bl-lg rounded-br-lg sm:rounded-bl-none"
+                : "",
+              "group relative bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
             )}
           >
             <div className="">
@@ -82,7 +85,7 @@ const About = () => {
                 className={classNames(
                   action.iconBackground,
                   action.iconForeground,
-                  'inline-flex rounded-lg p-3 ring-4 ring-white'
+                  "inline-flex rounded-lg p-3 ring-4 ring-white"
                 )}
               >
                 <action.icon className="h-6 w-6" aria-hidden="true" />
@@ -97,8 +100,9 @@ const About = () => {
                 </a>
               </h3>
               <p className="mt-2 text-sm text-gray-500">
-                Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et
-                quo et molestiae.
+                Doloribus dolores nostrum quia qui natus officia quod et
+                dolorem. Sit repellendus qui ut at blanditiis et quo et
+                molestiae.
               </p>
             </div>
             <span
