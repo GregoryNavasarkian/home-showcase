@@ -20,8 +20,11 @@ const Hero = () => {
               Modern home with state of the art appliances and exquisite
               attention to detail.
             </p>
-            <p className="text-indigo-100 md:text-3xl text-2xl mb-10">
+            <p className="md:block hidden text-indigo-100 md:text-3xl text-2xl mb-10">
               4,500 sqft | 0.5 acre lot | 4 bedrooms | 4 bathrooms
+            </p>
+            <p className="md:hidden block text-indigo-100 md:text-3xl text-2xl mb-10">
+              4,500 sqft | 0.5 acre lot <br /> 4 bedrooms | 4 bathrooms
             </p>
             <Link
               to="gallery"
