@@ -1,14 +1,18 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import ReactMarkdown from 'react-markdown';
+import { ArrowLeftIcon } from "@heroicons/react/24/outline";
+
+import MARKDOWN from './lighting.md';
 
 const Lighting = () => {
   const navigate = useNavigate();
   return (
-    <div className="min-h-screen w-full">
-      <button onClick={() => navigate(-1)} className="">
-        Go Back
-      </button>
-      <h1>Lighting</h1>
+    <div className="min-h-[95vh] flex justify-center bg-indigo-950">
+      <button className="absolute text-white mr-2" onClick={() => navigate(-1)}> <ArrowLeftIcon /> Go Back</button>
+      <div className="lg:w-3/5 w-4/5 bg-indigo-50 text-indigo-950 rounded-md shadow-md mt-24 mb-16 p-4 justify-center">
+        <ReactMarkdown className='prose'>{MARKDOWN}</ReactMarkdown>
+      </div>
     </div>
   );
 };
