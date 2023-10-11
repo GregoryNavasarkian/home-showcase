@@ -1,20 +1,20 @@
 import React from "react";
 
 import {
-  BellAlertIcon,
+  ShieldCheckIcon,
   AdjustmentsHorizontalIcon,
-  AcademicCapIcon,
+  FunnelIcon,
   BuildingStorefrontIcon,
-  ReceiptRefundIcon,
   UsersIcon,
+  SunIcon,
 } from '@heroicons/react/24/outline'
 
 
 const actions = [
   {
-    title: 'Security',
+    title: 'Safety and Security',
     href: '/security',
-    icon: BellAlertIcon,
+    icon: ShieldCheckIcon,
     iconForeground: 'text-teal-700',
     iconBackground: 'bg-teal-50',
   },
@@ -26,7 +26,7 @@ const actions = [
     iconBackground: 'bg-purple-50',
   },
   {
-    title: 'Appliances',
+    title: 'Appliances and Fixtures',
     href: '/appliances',
     icon: UsersIcon,
     iconForeground: 'text-sky-700',
@@ -40,16 +40,16 @@ const actions = [
     iconBackground: 'bg-green-50',
   },
   {
-    title: 'Submit an expense',
-    href: '#',
-    icon: ReceiptRefundIcon,
+    title: 'Lighting',
+    href: '/lighting',
+    icon: SunIcon,
     iconForeground: 'text-rose-700',
     iconBackground: 'bg-rose-50',
   },
   {
-    title: 'Training',
-    href: '#',
-    icon: AcademicCapIcon,
+    title: 'Climate',
+    href: '/climate',
+    icon: FunnelIcon,
     iconForeground: 'text-indigo-700',
     iconBackground: 'bg-indigo-50',
   },

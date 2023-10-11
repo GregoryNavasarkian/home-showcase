@@ -12,7 +12,7 @@ import Landscaping from "./pages/Landscaping";
 const App = () => {
   return (
 
-    <div className="landscape:lg:mt-0 landscape:md:mt-20 landscape:sm:mt-0 bg-indigo-200">
+    <div className="landscape:lg:mt-0 landscape:md:mt-0 landscape:sm:mt-0 bg-indigo-200">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
