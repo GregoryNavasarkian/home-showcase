@@ -3,6 +3,7 @@ import {
   BuildingOffice2Icon,
   EnvelopeIcon,
   PhoneIcon,
+  UserIcon,
 } from "@heroicons/react/24/outline";
 
 const Contact = () => {
@@ -18,12 +19,22 @@ const Contact = () => {
             Get in touch
           </h2>
           <p className="mt-6 md:text-2xl text-xl leading-8 text-gray-600">
-            Proin volutpat consequat porttitor cras nullam gravida at. Orci
-            molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu
-            sed malesuada et magna.
+            To schedule a showing or ask a question, please contact us below. We will get back to you as soon as possible.
           </p>
           <dl className="mt-10 space-y-4 text-lg leading-7 text-gray-600">
             <div className="flex gap-x-4">
+              <dt className="flex-none">
+                <span className="sr-only">Name</span>
+                <UserIcon
+                  className="h-7 w-6 text-gray-500"
+                  aria-hidden="true"
+                />
+              </dt>
+              <dd>
+                Kathy Boghossian
+              </dd>
+            </div>
+            {/* <div className="flex gap-x-4">
               <dt className="flex-none">
                 <span className="sr-only">Address</span>
                 <BuildingOffice2Icon
@@ -36,12 +47,12 @@ const Contact = () => {
                 <br />
                 Chicago, IL 99191
               </dd>
-            </div>
+            </div> */}
             <div className="flex gap-x-4">
               <dt className="flex-none">
                 <span className="sr-only">Telephone</span>
                 <PhoneIcon
-                  className="h-7 w-6 text-gray-400"
+                  className="h-7 w-6 text-gray-500"
                   aria-hidden="true"
                 />
               </dt>
@@ -55,7 +66,7 @@ const Contact = () => {
               <dt className="flex-none">
                 <span className="sr-only">Email</span>
                 <EnvelopeIcon
-                  className="h-7 w-6 text-gray-400"
+                  className="h-7 w-6 text-gray-500"
                   aria-hidden="true"
                 />
               </dt>
