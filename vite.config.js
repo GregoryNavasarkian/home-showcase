@@ -13,7 +13,7 @@ export default defineConfig({
           // For .md files, get the raw content
           return `export default ${JSON.stringify(code)};`;
         }
-      }
-    }
-  ]
+      },
+    },
+  ],
 });
