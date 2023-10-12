@@ -1,5 +1,9 @@
 # Appliances
 
-<hr />
+## Indoor
 
-<img style="margin:auto; border-radius:8px; width:70%;" src="/house.jpg" />
+### Fridge, oven, dishwasher, shower, sink faucets
+
+## Outdoor
+
+### Grill, fridge tv, sink
