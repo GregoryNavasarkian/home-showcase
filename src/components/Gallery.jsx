@@ -17,6 +17,18 @@ import DSC_2546 from "../assets/backyardLight/DSC_2546.jpg";
 import DSC_2551 from "../assets/backyardLight/DSC_2551.jpg";
 import DSC_2555 from "../assets/backyardLight/DSC_2555.jpg";
 
+// back yard dark
+import DSC_2562 from "../assets/backyardDark/DSC_2562.jpg";
+import DSC_2565 from "../assets/backyardDark/DSC_2565.jpg";
+import DSC_2570 from "../assets/backyardDark/DSC_2570.jpg";
+import DSC_2571 from "../assets/backyardDark/DSC_2571.jpg";
+import DSC_2577 from "../assets/backyardDark/DSC_2577.jpg";
+import DSC_2582 from "../assets/backyardDark/DSC_2582.jpg";
+import DSC_2583 from "../assets/backyardDark/DSC_2583.jpg";
+import DSC_2587 from "../assets/backyardDark/DSC_2587.jpg";
+import DSC_2588 from "../assets/backyardDark/DSC_2588.jpg";
+import DSC_2589 from "../assets/backyardDark/DSC_2589.jpg";
+
 const backyardLightImages = [
   {
     original: `${DSC_2525}`,
@@ -82,6 +94,56 @@ const backyardLightImages = [
     original: `${DSC_2555}`,
     thumbnail: `${DSC_2555}`,
     description: "Pool View",
+  },
+  {
+    original: `${DSC_2562}`,
+    thumbnail: `${DSC_2562}`,
+    description: "Pool View At Night",
+  },
+  {
+    original: `${DSC_2565}`,
+    thumbnail: `${DSC_2565}`,
+    description: "Pool View At Night",
+  },
+  {
+    original: `${DSC_2570}`,
+    thumbnail: `${DSC_2570}`,
+    description: "LED Step Lighting",
+  },
+  {
+    original: `${DSC_2571}`,
+    thumbnail: `${DSC_2571}`,
+    description: "Backyard Lights",
+  },
+  {
+    original: `${DSC_2577}`,
+    thumbnail: `${DSC_2577}`,
+    description: "Backyard Lights",
+  },
+  {
+    original: `${DSC_2582}`,
+    thumbnail: `${DSC_2582}`,
+    description: "Programmable RGB LED Lights",
+  },
+  {
+    original: `${DSC_2583}`,
+    thumbnail: `${DSC_2583}`,
+    description: "Programmable RGB LED Lights",
+  },
+  {
+    original: `${DSC_2587}`,
+    thumbnail: `${DSC_2587}`,
+    description: "Pool View At Night",
+  },
+  {
+    original: `${DSC_2588}`,
+    thumbnail: `${DSC_2588}`,
+    description: "Pool View At Night",
+  },
+  {
+    original: `${DSC_2589}`,
+    thumbnail: `${DSC_2589}`,
+    description: "Pool View At Night",
   },
 ];
 
