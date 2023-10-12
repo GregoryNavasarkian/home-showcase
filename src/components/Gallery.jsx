@@ -25,7 +25,6 @@ import DSC_2571 from "../assets/backyardDark/DSC_2571.jpg";
 import DSC_2577 from "../assets/backyardDark/DSC_2577.jpg";
 import DSC_2582 from "../assets/backyardDark/DSC_2582.jpg";
 import DSC_2583 from "../assets/backyardDark/DSC_2583.jpg";
-import DSC_2587 from "../assets/backyardDark/DSC_2587.jpg";
 import DSC_2588 from "../assets/backyardDark/DSC_2588.jpg";
 import DSC_2589 from "../assets/backyardDark/DSC_2589.jpg";
 
@@ -129,11 +128,6 @@ const backyardLightImages = [
     original: `${DSC_2583}`,
     thumbnail: `${DSC_2583}`,
     description: "Programmable RGB LED Lights",
-  },
-  {
-    original: `${DSC_2587}`,
-    thumbnail: `${DSC_2587}`,
-    description: "Pool View At Night",
   },
   {
     original: `${DSC_2588}`,
