@@ -51,7 +51,6 @@ import DSC_2623 from "../assets/interior/DSC_2623.jpg";
 import DSC_2631 from "../assets/interior/DSC_2631.jpg";
 import DSC_2632 from "../assets/interior/DSC_2632.jpg";
 import DSC_2633 from "../assets/interior/DSC_2633.jpg";
-import DSC_2634 from "../assets/interior/DSC_2634.jpg";
 import DSC_2635 from "../assets/interior/DSC_2635.jpg";
 import DSC_2637 from "../assets/interior/DSC_2637.jpg";
 import DSC_2639 from "../assets/interior/DSC_2639.jpg";
@@ -176,11 +175,6 @@ const backyardImages = [
 ];
 
 const interiorImages = [
-  {
-    original: `${DSC_2634}`,
-    thumbnail: `${DSC_2634}`,
-    description: "Front Entry",
-  },
   {
     original: `${DSC_2635}`,
     thumbnail: `${DSC_2635}`,
