@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="min-h-screen bg-[url('/house.jpg')] bg-cover saturate-50 items-center"
+      className="min-h-screen bg-[url('/DSC_2648.jpg')] bg-cover saturate-50 items-center"
     >
-      <div className="min-h-screen bg-indigo-900 bg-opacity-90">
+      <div className="min-h-screen bg-indigo-900 bg-opacity-70">
         <div className="text-center items-center px-4 py-8 mx-auto lg:py-16 ">
           <div className="mt-28 md:mt-64 place-self-center">
             <h1 className="text-center items-center justify-center mx-auto max-w-4xl mb-4 text-3xl text-indigo-100 font-extrabold tracking-tight leading-none md:text-6xl xl:text-7xl">
