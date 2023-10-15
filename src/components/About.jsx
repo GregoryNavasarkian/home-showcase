@@ -16,7 +16,7 @@ const actions = [
     icon: ShieldCheckIcon,
     iconForeground: "text-teal-700",
     iconBackground: "bg-teal-50",
-    description: "Click to learn more about safety and security features."
+    description: "Click to learn more about safety and security features.",
   },
   {
     title: "Automation",
@@ -24,7 +24,7 @@ const actions = [
     icon: AdjustmentsHorizontalIcon,
     iconForeground: "text-purple-700",
     iconBackground: "bg-purple-50",
-    description: "Click to learn more about home automation."
+    description: "Click to learn more about home automation.",
   },
 
   {
@@ -33,7 +33,7 @@ const actions = [
     icon: SunIcon,
     iconForeground: "text-rose-700",
     iconBackground: "bg-rose-50",
-    description: "Click to learn more about home lighting features."
+    description: "Click to learn more about home lighting features.",
   },
   {
     title: "Climate",
@@ -41,7 +41,7 @@ const actions = [
     icon: FunnelIcon,
     iconForeground: "text-indigo-700",
     iconBackground: "bg-indigo-50",
-    description: "Click to learn more about home climate control."
+    description: "Click to learn more about home climate control.",
   },
   {
     title: "Appliances and Fixtures",
@@ -49,7 +49,7 @@ const actions = [
     icon: UsersIcon,
     iconForeground: "text-sky-700",
     iconBackground: "bg-sky-50",
-    description: "Click to learn more about home appliances and fixtures."
+    description: "Click to learn more about home appliances and fixtures.",
   },
   {
     title: "Landscaping",
@@ -57,7 +57,7 @@ const actions = [
     icon: BuildingStorefrontIcon,
     iconForeground: "text-green-700",
     iconBackground: "bg-green-50",
-    description: "Click to learn more about landscaping features."
+    description: "Click to learn more about landscaping features.",
   },
 ];
 
@@ -106,9 +106,7 @@ const About = () => {
                   {action.title}
                 </a>
               </h3>
-              <p className="mt-2 text-sm text-gray-500">
-                {action.description}
-              </p>
+              <p className="mt-2 text-sm text-gray-500">{action.description}</p>
             </div>
             <span
               className="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400"

@@ -334,7 +334,7 @@ const interiorImages = [
     original: `${DSC_2618}`,
     thumbnail: `${DSC_2618}`,
     description: "Thermostat",
-  }
+  },
 ];
 
 const Gallery = () => {

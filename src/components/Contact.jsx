@@ -19,7 +19,8 @@ const Contact = () => {
             Get in touch
           </h2>
           <p className="mt-6 md:text-2xl text-xl leading-8 text-gray-600">
-            To schedule a showing or ask a question, please contact us below. We will get back to you as soon as possible.
+            To schedule a showing or ask a question, please contact us below. We
+            will get back to you as soon as possible.
           </p>
           <dl className="mt-10 space-y-4 text-lg leading-7 text-gray-600">
             <div className="flex gap-x-4">
@@ -30,9 +31,7 @@ const Contact = () => {
                   aria-hidden="true"
                 />
               </dt>
-              <dd>
-                Kathy Boghossian
-              </dd>
+              <dd>Kathy Boghossian</dd>
             </div>
             {/* <div className="flex gap-x-4">
               <dt className="flex-none">

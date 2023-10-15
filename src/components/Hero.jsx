@@ -21,10 +21,10 @@ const Hero = () => {
               attention to detail.
             </p>
             <p className="md:block hidden text-indigo-100 md:text-3xl text-2xl mb-10">
-              4,500 sqft | 0.5 acre lot | 4 bedrooms | 4 bathrooms
+              3,469 sqft | 0.5 acre lot | 4 bedrooms | 3 bathrooms
             </p>
             <p className="md:hidden block text-indigo-100 md:text-3xl text-2xl mb-10">
-              4,500 sqft | 0.5 acre lot <br /> 4 bedrooms | 4 bathrooms
+              3,469 sqft | 0.5 acre lot <br /> 4 bedrooms | 3 bathrooms
             </p>
             <Link
               to="gallery"

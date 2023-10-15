@@ -1,6 +1,6 @@
 # Climate
 
-## Dual systems 
+## Dual systems
 
 ## Smart thermostat
 
