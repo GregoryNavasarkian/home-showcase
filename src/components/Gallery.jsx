@@ -348,7 +348,7 @@ const Gallery = () => {
       </h2>
       <div className="flex items-center justify-center md:px-20 bg-indigo-950">
         <span className="content-center mb-20 m-8 md:w-[70%] w-[85%]">
-          <ImageGallery items={backyardImages} />
+          <ImageGallery lazyLoad={true} items={backyardImages} />
         </span>
       </div>
       <h2 className="text-center md:text-6xl text-4xl text-indigo-100 drop-shadow-lg">
@@ -356,7 +356,7 @@ const Gallery = () => {
       </h2>
       <div className="flex items-center justify-center md:px-20 bg-indigo-950">
         <span className="content-center mb-20 m-8 md:w-[70%] w-[85%]">
-          <ImageGallery items={interiorImages} />
+          <ImageGallery lazyLoad={true} items={interiorImages} />
         </span>
       </div>
     </div>
